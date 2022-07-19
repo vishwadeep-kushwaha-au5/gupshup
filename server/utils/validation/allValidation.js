@@ -29,7 +29,7 @@ exports.name = Joi.string().min(8).max(30).pattern(/^[a-zA-Z' ]{3,20}$/).message
 
 });
 
-exports.about = Joi.string().min(1).max(240).pattern(/^[a-zA-Z' ]{1,240}$/).messages({
+exports.about = Joi.string().min(1).max(240).messages({
     'string.pattern.base': `Your desc can only contain lower and uppercase letters and apostrophes`,
     'string.empty': `Desc cannot be an empty field`,
     'string.min': `Desc should have a minimum length of {#limit}`,

@@ -5,7 +5,7 @@ const INITIAL_STATE = {
     postForm: {
         desc: {
             value: '', 
-            validationType: "validateText",
+            validationType: "validateEmpty",
             validation: true,
             required: true
         },
@@ -41,7 +41,7 @@ export default function profile(state = INITIAL_STATE, action) {
                 postForm: {
                     desc: {
                         value: '', 
-                        validationType: "validateText",
+                        validationType: "validateEmpty",
                         validation: true,
                         required: true
                     },

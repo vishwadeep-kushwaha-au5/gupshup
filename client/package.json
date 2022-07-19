@@ -38,7 +38,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:3080/",
+  "proxy": "https://gupshup-server.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
